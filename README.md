@@ -18,4 +18,4 @@ Este projeto é uma aplicação web simples que permite ao usuário gerar uma qu
 
 ### 🖥️ Interface
 
-![image](https://github.com/user-attachments/assets/45746e71-2426-4b81-a850-e67e12e9328f)
+![image](https://github.com/user-attachments/assets/2cb0bbf0-29aa-4cc6-91ad-c3a514ce6e6f)
