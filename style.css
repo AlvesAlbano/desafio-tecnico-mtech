@@ -1,0 +1,81 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e cor base */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+    padding: 2rem;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #222;
+}
+
+/* Texto de instrução */
+p {
+    margin-bottom: 0.5rem;
+}
+
+/* Formulário */
+form {
+    max-width: 400px;
+    margin: 0 auto 2rem auto;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Resultados */
+#resultado,
+#mediaNumeros,
+#maiorNumero,
+#menorNumero,
+#quantidadeImpares,
+#quantidadePares {
+    max-width: 500px;
+    margin: 0.5rem auto;
+    padding: 0.75rem 1rem;
+    background-color: #ffffff;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}

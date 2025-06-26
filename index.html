@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Técnico - Mtech</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Gerador de numeros aleatorios</h1>
+
+    <p>Digite a quantidade de números aleatórios a serem gerados, dentro do intevalo de 1 - 100</p>
+    <form onsubmit="mostrarResultados(); return false">
+        <label for="numero" >Digite um número:</label>
+        <input type="number" id="numero" name="numero" min="1" max="100" required>
+        <button type="submit">Gerar e Analisar</button>
+    </form>
+
+    <p id="resultado">Números Gerados: </p>
+    <p id="mediaNumeros">Média: </p>
+    <p id="maiorNumero">Maior Numero: </p>
+    <p id="menorNumero">Menor Numero: </p>
+    <p id="quantidadeImpares">Numeros Impares: </p>
+    <p id="quantidadePares">Numeros Pares: </p>
+</body>
+</html>
